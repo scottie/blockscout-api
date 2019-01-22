@@ -1,0 +1,27 @@
+{
+  "name": "blockscout",
+  "version": "1.0.0",
+  "description": "API for blockscount explorer, POA, ETH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottie/blockscout-api.git"
+  },
+  "keywords": [
+    "POA",
+    "blockscout",
+    "explorer",
+    "ETH",
+    "etherium",
+    "poa"
+  ],
+  "author": "Scott Lindh <scottlindh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottie/blockscout-api/issues"
+  },
+  "homepage": "https://github.com/scottie/blockscout-api#readme"
+}
