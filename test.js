@@ -121,5 +121,6 @@ describe('Load', function() {
         });
     });
 
+console.log(bs.versions);
 
 });
