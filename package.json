@@ -1,10 +1,11 @@
 {
   "name": "blockscout",
   "version": "1.0.0",
-  "description": "API for blockscount explorer, POA, ETH",
-  "main": "index.js",
+  "description": "API for blockscout explorer, POA, ETH",
+  "main": "blockscout.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js",
+    "run": "node blockscout.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/scottie/blockscout-api/issues"
   },
-  "homepage": "https://github.com/scottie/blockscout-api#readme"
+  "homepage": "https://github.com/scottie/blockscout-api#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
